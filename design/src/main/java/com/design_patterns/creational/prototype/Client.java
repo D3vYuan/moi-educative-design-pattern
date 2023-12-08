@@ -1,5 +1,10 @@
 package com.design_patterns.creational.prototype;
 
+/**
+ * Definition
+ * Prototype pattern involves creating new objects by copying existing objects.
+ * The object whose copies are made is called the prototype
+ */
 public class Client {
     public void main() {
 

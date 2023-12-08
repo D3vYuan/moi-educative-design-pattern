@@ -1,5 +1,12 @@
 package com.design_patterns.behavioral.momento;
 
+/**
+ * Definition
+ * The memento pattern let's us capture the internal state of an object without
+ * exposing its internal structure so that the object can be restored to this
+ * state later
+ * 
+ */
 public class Client {
     public void main(BlackBox blackBox) throws Exception {
 

@@ -10,8 +10,8 @@ public class Adapter implements IAircraft {
 
     @Override
     public void fly() {
-        String feulUsed = hotAirBalloon.inflateWithGas();
-        hotAirBalloon.fly(feulUsed);
+        String fuelUsed = hotAirBalloon.inflateWithGas();
+        hotAirBalloon.fly(fuelUsed);
     }
 
 }

@@ -2,7 +2,14 @@ package com.design_patterns.creational.abstract_factory;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
+
+/**
+ * Definition
+ * The abstract factory pattern is defined as defining an interface to create
+ * families of related or dependent objects without specifying their concrete
+ * classes.The abstract factory is particularly useful for frameworks and
+ * toolkits that work on different operating systems.
+ */
 
 public class Client {
     public static void main() {

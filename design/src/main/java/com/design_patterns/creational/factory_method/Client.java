@@ -3,6 +3,11 @@ package com.design_patterns.creational.factory_method;
 import java.util.ArrayList;
 import java.util.Collection;
 
+/**
+ * Definition
+ * The factory method is defined as providing an interface for object creation
+ * but delegating the actual instantiation of objects to subclasses.
+ */
 public class Client {
     public void main() {
         Collection<F16> myAirForce = new ArrayList<F16>();

@@ -1,5 +1,11 @@
 package com.design_patterns.structural.flyweight;
 
+/**
+ * Definition
+ * The pattern advocates reusing state among a large number of fine grained
+ * object
+ * 
+ */
 public class Client {
     public static void main(int[][] coordsF16) {
         F16 flyweightF16 = new F16();

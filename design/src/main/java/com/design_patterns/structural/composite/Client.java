@@ -1,5 +1,12 @@
 package com.design_patterns.structural.composite;
 
+/**
+ * Definition
+ * The pattern allows you to treat the whole and the individual parts as one.
+ * The closest analogy you can imagine is a tree. The tree is a recursive
+ * data-structure where each part itself is a sub-tree except for the leaf
+ * nodes.
+ */
 public class Client {
     private static IAlliancePart createCanadaAirForce() {
         return new Airforce();

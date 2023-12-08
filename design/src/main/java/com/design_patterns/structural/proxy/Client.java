@@ -2,6 +2,12 @@ package com.design_patterns.structural.proxy;
 
 import java.util.Scanner;
 
+/**
+ * Definition
+ * In a proxy pattern setup, a proxy is responsible for representing another
+ * object called the subject in front of clients. The real subject is shielded
+ * from interacting directly with the clients.
+ */
 public class Client {
     public static void main(DroneProxy proxy) {
         // perpetual loop that received pilot actions
